@@ -31,6 +31,6 @@ jobs:
       env:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
       run: |
-        heroku login --email rd.galih752@gmail.com --password Rakasiwi947! # or use token
+        heroku login --email rd.galih752@gmail.com --password Rakasiwi947!
         heroku git:remote -a dira-abinawa
         git push heroku main
